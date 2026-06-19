@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho: Sustentabilidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div class="container">
+        <span class="emoji-topo">🌱</span>
+        <h1>Projeto Agrinho</h1>
+        <p class="subtitulo">Cuidando do solo, da água e do nosso futuro!</p>
+        
+        <hr>
+
+        <div id="area-quiz">
+            <p id="pergunta">**Pergunta:** Qual dessas atitudes ajuda a preservar a água na agricultura?</p>
+            
+            <div class="opcoes">
+                <button class="btn-opcao" onclick="verificarResposta(false)">Deixar as mangueiras abertas</button>
+                <button class="btn-opcao" onclick="verificarResposta(true)">Usar irrigação por gotejamento</button>
+                <button class="btn-opcao" onclick="verificarResposta(false)">Desperdiçar água da chuva</button>
+            </div>
+        </div>
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
